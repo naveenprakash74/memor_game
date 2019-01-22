@@ -1,0 +1,167 @@
+body{
+	text-align: center;
+	background: #001628;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.main{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	border:10px solid goldenrod;
+	justify-content:center;	
+	height:100%;
+}
+.header{
+display:flex;
+width:600px;
+height:200px;
+
+flex-direction: row;
+justify-content:  space-between;
+margin-bottom:10px;
+}
+
+h6{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 5px 0px 20px;
+}
+
+#clockdiv, #ScoreDiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div, #ScoreDiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+
+#clockdiv div > span, #ScoreDiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+.game-metrix
+{
+	display:flex;
+	flex-wrap:wrap;
+	width:600px;
+		
+}
+.box{
+width:100px;
+flex-grow:1;
+border:1px solid mistyrose;
+background-color: #FFC300;
+height:60px;
+}
+
+.image-box{
+	width:40px;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.pop-restart
+{
+  color: white;
+  background-color:#00BF96;
+  font-size: 30px;
+}
+.pop-restart:hover,
+.pop-restart:focus {
+  color: white;
+  background-color:#00816A;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #001628;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;
+background-color:#FFC300;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #001628;
+  color: white;
+}
+
+
+
+
+
+
+

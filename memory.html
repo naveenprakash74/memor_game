@@ -1,0 +1,110 @@
+<html>
+<head>
+	<title>Memory Game</title>
+	 
+	 <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="main">
+		 
+		 
+		 
+		 <div>
+				<!-- The Modal -->
+				<div id="myModal" class="modal">
+
+				  <!-- Modal content -->
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <span class="close">&times;</span>
+					  <h2 id="pop-header"></h2>
+					</div>
+					<div class="modal-body">
+					  <p>Time: <strong id="pop-time"></strong></p>
+					  <p>Move: <strong id="pop-move"></strong></p>
+					</div>
+					<div class="modal-footer">
+					<button class="pop-restart">Restart</span>
+					</div>
+				  </div>
+
+				</div>
+
+		 
+		 
+		</div>
+		
+		
+		
+		
+		
+		<div class="header">
+			<div class="left-score">
+			<h6>Score</h6>
+				<div id="ScoreDiv">
+					<div>
+					<span class="move"></span>
+					<div class="smalltext">Move</div>
+					</div>
+				</div>
+			</div>			
+			<div class="right-timer">
+				<h6>Timer</h6>
+				<div id="clockdiv">
+				<div>
+					<span class="minutes"></span>
+					<div class="smalltext">Minutes</div>
+				</div>
+				<div>
+					<span class="seconds"></span>
+					<div class="smalltext">Seconds</div>
+				</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="main-game-metrix">
+			<div class="game-metrix">
+				<div class="box box1" onclick="ImageChange(0)"> <img class="image-box" id="0" src="ffc300.png" ></img></div>
+				<div class="box box2" onclick="ImageChange('1')"> <img class="image-box" id="1" src="ffc300.png" ></img></div>
+				<div class="box box3" onclick="ImageChange('2')"> <img class="image-box" id="2" src="ffc300.png"></img></div>
+				<div class="box box4" onclick="ImageChange('3')"> <img class="image-box" id="3" src="ffc300.png" ></img></div>
+				<div class="box box5" onclick="ImageChange('4')"> <img class="image-box" id="4" src="ffc300.png" ></img></div>
+				<div class="box box6" onclick="ImageChange('5')"> <img class="image-box" id="5" src="ffc300.png" ></img></div>
+				<div class="box box7" onclick="ImageChange('6')"> <img class="image-box" id="6" src="ffc300.png" ></img></div>
+				<div class="box box8" onclick="ImageChange('7')"> <img class="image-box" id="7" src="ffc300.png" ></img></div>
+				<div class="box box9" onclick="ImageChange('8')"> <img class="image-box" id="8" src="ffc300.png" ></img></div>
+				<div class="box box10" onclick="ImageChange('9')"> <img class="image-box" id="9" src="ffc300.png" ></img></div>
+				<div class="box box11" onclick="ImageChange('10')"> <img class="image-box" id="10" src="ffc300.png" ></img></div>
+				<div class="box box12" onclick="ImageChange('11')"> <img class="image-box" id="11" src="ffc300.png" ></img></div>
+				<div class="box box13" onclick="ImageChange('12')"> <img class="image-box" id="12" src="ffc300.png" ></img></div>
+				<div class="box box14" onclick="ImageChange('13')"> <img class="image-box" id="13" src="ffc300.png" ></img></div>
+				<div class="box box15" onclick="ImageChange('14')"> <img class="image-box" id="14" src="ffc300.png" ></img></div>
+				<div class="box box1" onclick="ImageChange('15')"> <img class="image-box" id="15" src="ffc300.png" ></img></div>
+				<div class="box box2" onclick="ImageChange('16')"> <img class="image-box" id="16" src="ffc300.png" ></img></div>
+				<div class="box box3" onclick="ImageChange('17')"> <img class="image-box" id="17" src="ffc300.png"></img></div>
+				<div class="box box4" onclick="ImageChange('18')"> <img class="image-box" id="18" src="ffc300.png" ></img></div>
+				<div class="box box5" onclick="ImageChange('19')"> <img class="image-box" id="19" src="ffc300.png" ></img></div>
+				<div class="box box6" onclick="ImageChange('20')"> <img class="image-box" id="20" src="ffc300.png" ></img></div>
+				<div class="box box7" onclick="ImageChange('21')"> <img class="image-box" id="21" src="ffc300.png" ></img></div>
+				<div class="box box8" onclick="ImageChange('22')"> <img class="image-box" id="22" src="ffc300.png" ></img></div>
+				<div class="box box9" onclick="ImageChange('23')"> <img class="image-box" id="23" src="ffc300.png" ></img></div>
+				<div class="box box10" onclick="ImageChange('24')"> <img class="image-box" id="24" src="ffc300.png" ></img></div>
+				<div class="box box11" onclick="ImageChange('25')"> <img class="image-box" id="25" src="ffc300.png" ></img></div>
+				<div class="box box12" onclick="ImageChange('26')"> <img class="image-box" id="26" src="ffc300.png" ></img></div>
+				<div class="box box13" onclick="ImageChange('27')"> <img class="image-box" id="27" src="ffc300.png" ></img></div>
+				<div class="box box14" onclick="ImageChange('28')"> <img class="image-box" id="28" src="ffc300.png" ></img></div>
+				<div class="box box15" onclick="ImageChange('29')"> <img class="image-box" id="29" src="ffc300.png" ></img></div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="button">
+			
+			
+			</div>
+		</div>
+	</div>
+	<script src="myScript.js"></script> 
+</body>
+</html>
+		
